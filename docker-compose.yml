@@ -4,6 +4,8 @@ services:
   database:
     image: mariadb
     restart: always
+    networks:
+      - directus
     env_file:
       - ./.env
   directus-rest-api:
@@ -11,8 +13,7 @@ services:
     restart: always
     networks:
       - reverse-proxy
-    links:
-      - database
+      - directus
     env_file:
       - ./.env
     depends_on:
@@ -31,6 +32,7 @@ services:
 
 
 networks:
+  directus:
   reverse-proxy:
     external: true
 
