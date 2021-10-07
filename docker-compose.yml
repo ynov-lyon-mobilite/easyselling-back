@@ -16,20 +16,19 @@ services:
       - directus
     env_file:
       - ./.env
-    environment:
-      PORT: 80
     depends_on:
       - database
     labels:
       - traefik.enable=true
-      - traefik.http.routers.DIRECTUS_EASYSELLING.rule=Host(`easyselling.maxencemottard.com`)
-      - traefik.http.routers.DIRECTUS_EASYSELLING.entrypoints=http
-      - traefik.http.routers.DIRECTUS_EASYSELLING.middlewares=https-redirect@file
-      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.rule=Host(`easyselling.maxencemottard.com`)
-      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.entrypoints=https
-      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.middlewares=security@file, compression@file
-      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.tls=true
-      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.tls.certresolver=letsencrypt
+      - traefik.http.services.EASYSELLING.loadbalancer.server.port=8055
+      - traefik.http.routers.EASYSELLING.rule=Host(`registry.maxencemottard.com`)
+      - traefik.http.routers.EASYSELLING.entrypoints=http
+      - traefik.http.routers.EASYSELLING.middlewares=https-redirect@file
+      - traefik.http.routers.EASYSELLING-Https.rule=Host(`easyselling.maxencemottard.com`)
+      - traefik.http.routers.EASYSELLING-Https.entrypoints=https
+      - traefik.http.routers.EASYSELLING-Https.middlewares=security@file, compression@file
+      - traefik.http.routers.EASYSELLING-Https.tls=true
+      - traefik.http.routers.EASYSELLING-Https.tls.certresolver=letsencrypt
 
 
 networks:
