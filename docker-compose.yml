@@ -11,10 +11,19 @@ services:
     restart: always
     links:
       - database
-    ports:
-      - 8055:8055
     env_file:
       - ./.env
     depends_on:
       - database
+    labels:
+      - traefik.enable=true
+      - traefik.http.services.DIRECTUS_EASYSELLING.loadbalancer.server.port=8055
+      - traefik.http.routers.DIRECTUS_EASYSELLING.rule=Host(`easyselling.maxencemottard.com`)
+      - traefik.http.routers.DIRECTUS_EASYSELLING.entrypoints=http
+      - traefik.http.routers.DIRECTUS_EASYSELLING.middlewares=https-redirect@file
+      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.rule=Host(`easyselling.maxencemottard.com`)
+      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.entrypoints=https
+      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.middlewares=security@file, compression@file
+      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.tls=true
+      - traefik.http.routers.DIRECTUS_EASYSELLING-Https.tls.certresolver=letsencrypt
 
