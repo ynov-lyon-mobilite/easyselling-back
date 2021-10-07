@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  database:
+    image: mariadb
+    restart: always
+    env_file:
+      - ./.env
+  directus-rest-api:
+    image: directus/directus:9.0.0-rc.95
+    restart: always
+    links:
+      - database
+    ports:
+      - 8055:8055
+    env_file:
+      - ./.env
+    depends_on:
+      - database
+
