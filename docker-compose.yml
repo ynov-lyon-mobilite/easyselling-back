@@ -16,11 +16,12 @@ services:
       - directus
     env_file:
       - ./.env
+    environment:
+      PORT: 80
     depends_on:
       - database
     labels:
       - traefik.enable=true
-      - traefik.http.services.DIRECTUS_EASYSELLING.loadbalancer.server.port=8055
       - traefik.http.routers.DIRECTUS_EASYSELLING.rule=Host(`easyselling.maxencemottard.com`)
       - traefik.http.routers.DIRECTUS_EASYSELLING.entrypoints=http
       - traefik.http.routers.DIRECTUS_EASYSELLING.middlewares=https-redirect@file
