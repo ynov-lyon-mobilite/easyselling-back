@@ -4,6 +4,8 @@ services:
   database:
     image: mariadb
     restart: always
+    volumes:
+      - ./data/mariadb:/var/lib/mysql
     networks:
       - directus-network
     env_file:
