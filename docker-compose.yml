@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   directus-rest-api:
-    image: directus/directus:9.0.0-rc.96
+    image: directus/directus:9.0.0-rc.95
     restart: always
     networks:
       - reverse-proxy
