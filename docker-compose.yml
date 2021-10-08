@@ -5,7 +5,7 @@ services:
     image: mariadb
     restart: always
     networks:
-      - directus
+      - directus-network
     env_file:
       - ./.env
   directus-rest-api:
@@ -13,7 +13,7 @@ services:
     restart: always
     networks:
       - reverse-proxy
-      - directus
+      - directus-network
     env_file:
       - ./.env
     depends_on:
@@ -21,7 +21,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.http.services.EASYSELLING.loadbalancer.server.port=8055
-      - traefik.http.routers.EASYSELLING.rule=Host(`registry.maxencemottard.com`)
+      - traefik.http.routers.EASYSELLING.rule=Host(`easyselling.maxencemottard.com`)
       - traefik.http.routers.EASYSELLING.entrypoints=http
       - traefik.http.routers.EASYSELLING.middlewares=https-redirect@file
       - traefik.http.routers.EASYSELLING-Https.rule=Host(`easyselling.maxencemottard.com`)
@@ -32,7 +32,7 @@ services:
 
 
 networks:
-  directus:
+  directus-network:
   reverse-proxy:
     external: true
 
