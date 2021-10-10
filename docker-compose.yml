@@ -16,6 +16,8 @@ services:
     networks:
       - reverse-proxy
       - directus-network
+    volumes:
+      - ./extensions:/directus/extensions
     env_file:
       - ./.env
     depends_on:
