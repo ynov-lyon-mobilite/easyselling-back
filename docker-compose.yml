@@ -11,7 +11,7 @@ services:
     env_file:
       - ./.env
   directus-rest-api:
-    image: directus/directus:9.0.0-rc.99
+    image: directus/directus:9.0.0-rc.100
     restart: always
     networks:
       - reverse-proxy
