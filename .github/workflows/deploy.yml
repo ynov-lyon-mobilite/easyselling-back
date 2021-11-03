@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: burnett01/rsync-deployments@4.0
         with:
-          switches: -avzr --delete --exclude=.env --exclude=data
+          switches: -avzr --delete --exclude=.env --exclude=gcs.json --exclude=data
           path: ./
           remote_path: /root/easyselling-directus/
           remote_host: ${{ secrets.HOST }}
