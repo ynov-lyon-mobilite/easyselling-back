@@ -6,7 +6,8 @@ module.exports = function registerEndpoint(router) {
 			{
 				"appID": "94FLWD5X32.com.ydays.easyselling",
 				"paths": [
-					"/admin/reset-password"
+					"/admin/reset-password",
+					"/vehicles/share",
 				]
 			}
 		  ]
