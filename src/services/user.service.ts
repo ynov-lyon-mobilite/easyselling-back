@@ -7,7 +7,7 @@ import axios from 'axios';
 import { User } from 'src/models/user.model';
 import config from '../configs';
 import { APIDto } from '../dto/api.dto';
-import { UserDto } from '../dto/user.dto';
+import { UserDTO } from '../dto/user.dto';
 import { UserRepository } from '../repositories/user.repository';
 
 @Injectable()
@@ -16,7 +16,7 @@ export class UserService {
 
   updateUser = async (
     userId: string,
-    parameters: UserDto,
+    parameters: UserDTO,
   ): Promise<APIDto<User>> => {
     // @ts-ignore
     const user = this.userRepository.updateOneBy({ _id: userId }, parameters);
@@ -24,7 +24,7 @@ export class UserService {
     return new APIDto(user);
   };
 
-  registerUser = async (parameters: UserDto): Promise<APIDto<User>> => {
+  registerUser = async (parameters: UserDTO): Promise<APIDto<User>> => {
     const { email, password, firstname, lastname } = parameters;
     const data = JSON.stringify({ email, password, returnSecureToken: true });
 

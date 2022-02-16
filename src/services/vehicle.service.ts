@@ -2,7 +2,6 @@ import { BadRequestException, Injectable } from '@nestjs/common';
 import { APIDto } from 'src/dto/api.dto';
 import { VehicleDTO } from 'src/dto/vehicle.dto';
 import { User } from 'src/models/user.model';
-import { Vehicle } from 'src/models/vehicle.model';
 import { VehicleRepository } from '../repositories/vehicle.repository';
 
 @Injectable()
