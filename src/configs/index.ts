@@ -6,11 +6,10 @@ require('dotenv').config();
 export default {
   port: process.env.PORT,
   mongoUrl: process.env.MONGO_URL,
-  firebase: firebaseConfig,
-  firebaseApiKey: process.env.FIREBASE_API_KEY,
-  // aws: {
-  //   id: process.env.AWS_ID,
-  //   secret: process.env.AWS_SECRET,
-  //   bucketName: process.env.AWS_BUCKET_NAME,
-  // },
+  apiUrl: process.env.API_URL,
+  firebase: {
+    credential: firebaseConfig,
+    apiKey: process.env.FIREBASE_API_KEY,
+    bucketName: process.env.FIREBASE_BUCKET_NAME,
+  },
 };

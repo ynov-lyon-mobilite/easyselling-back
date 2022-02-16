@@ -14,7 +14,7 @@ export class AuthenticationService {
     try {
       const result = await axios({
         method: 'post',
-        url: `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${config.firebaseApiKey}`,
+        url: `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${config.firebase.apiKey}`,
         headers: { 'Content-Type': 'application/json' },
         data: data,
       });
@@ -34,7 +34,7 @@ export class AuthenticationService {
     try {
       const result = await axios({
         method: 'post',
-        url: `https://securetoken.googleapis.com/v1/token?key=${config.firebaseApiKey}`,
+        url: `https://securetoken.googleapis.com/v1/token?key=${config.firebase.apiKey}`,
         headers: { 'Content-Type': 'application/json' },
         data: data,
       });

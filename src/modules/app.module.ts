@@ -7,12 +7,14 @@ import { AppController } from '../controllers/app.controller';
 import { AppService } from '../services/app.service';
 import { MongoModule } from './mondo.module';
 import { MongooseModule } from '@nestjs/mongoose';
-
-import config from '../configs';
 import { VehicleController } from 'src/controllers/vehicle.controller';
 import { VehicleService } from 'src/services/vehicle.service';
 import { InvoiceController } from 'src/controllers/invoice.controller';
 import { InvoiceService } from 'src/services/invoice.service';
+import { FileController } from 'src/controllers/file.controller';
+import { FileService } from 'src/services/file.service';
+
+import config from '../configs';
 
 @Module({
   imports: [MongooseModule.forRoot(config.mongoUrl), MongoModule, MongoModule],
@@ -22,6 +24,7 @@ import { InvoiceService } from 'src/services/invoice.service';
     UserController,
     VehicleController,
     InvoiceController,
+    FileController,
   ],
   providers: [
     AppService,
@@ -29,6 +32,7 @@ import { InvoiceService } from 'src/services/invoice.service';
     UserService,
     VehicleService,
     InvoiceService,
+    FileService,
   ],
 })
 export class AppModule {}

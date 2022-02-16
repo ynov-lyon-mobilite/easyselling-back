@@ -1,8 +1,4 @@
-import {
-  BadRequestException,
-  Injectable,
-  UnauthorizedException,
-} from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import axios from 'axios';
 import { User } from 'src/models/user.model';
 import config from '../configs';
@@ -31,7 +27,7 @@ export class UserService {
     try {
       const result = await axios({
         method: 'post',
-        url: `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${config.firebaseApiKey}`,
+        url: `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${config.firebase.apiKey}`,
         headers: { 'Content-Type': 'application/json' },
         data: data,
       });

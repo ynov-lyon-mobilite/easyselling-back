@@ -1,10 +1,10 @@
-/* eslint-disable */
 import * as admin from 'firebase-admin';
 import config from './index';
 
-const app = admin.initializeApp({
+const firebase = admin.initializeApp({
   // @ts-ignore
-  credential: admin.credential.cert(config.firebase),
+  credential: admin.credential.cert(config.firebase.credential),
+  storageBucket: config.firebase.bucketName,
 });
 
-export default app
+export default firebase;

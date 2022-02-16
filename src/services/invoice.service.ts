@@ -9,7 +9,10 @@ export class InvoiceService {
 
   getInvoicesForVehicle = async (vehicleId: string) => {
     return new APIDto(
-      await this.invoiceRepository.findManyBy({ vehicle: vehicleId }),
+      await this.invoiceRepository.findManyBy(
+        { vehicle: vehicleId },
+        { populate: ['file'] },
+      ),
     );
   };
 
