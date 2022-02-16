@@ -1,7 +1,7 @@
-export class APIDto {
+export class APIDto<D> {
   data;
 
-  constructor(data: any) {
+  constructor(data: D) {
     this.data = data;
   }
 }

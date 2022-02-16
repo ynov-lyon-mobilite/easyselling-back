@@ -1,10 +1,10 @@
 import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 import app from '../configs/firebase.config';
-// import { UserService } from '../modules/users/user.service';
+import { UserRepository } from '../repositories/user.repository';
 
 @Injectable()
 export class FirebaseTokenGuard implements CanActivate {
-  // constructor(private readonly userService: UserService) {}
+  constructor(private readonly userRepository: UserRepository) {}
 
   async canActivate(context: ExecutionContext): Promise<boolean> {
     const request = context.switchToHttp().getRequest();
@@ -13,9 +13,9 @@ export class FirebaseTokenGuard implements CanActivate {
     try {
       const decodedToken = await app.auth().verifyIdToken(token, true);
       request.firebaseUser = await app.auth().getUser(decodedToken.uid);
-      // request.user = await this.userService.getCurrentUser(
-      //   request.firebaseUser,
-      // );
+      request.user = await this.userRepository.findOneBy({
+        firebaseId: request.firebaseUser.uid,
+      });
 
       return true;
     } catch {
