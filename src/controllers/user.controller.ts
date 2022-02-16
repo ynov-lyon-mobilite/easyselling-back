@@ -12,9 +12,10 @@ import { UserService } from '../services/user.service';
 import { ApiSecurity, ApiTags } from '@nestjs/swagger';
 import { UserDto } from '../dto/user.dto';
 import { FirebaseTokenGuard } from '../guards/firebase-token.guard';
+import { CurrentUserGuard } from '../guards/current-user.guard';
 
 @Controller('users')
-@ApiTags('User')
+@ApiTags('Users')
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
@@ -31,6 +32,8 @@ export class UserController {
   }
 
   @Patch(':userId')
+  @UseGuards(FirebaseTokenGuard, CurrentUserGuard)
+  @ApiSecurity('Bearer')
   updateUser(@Body() body: UserDto, @Param('userId') userId: string) {
     return this.userService.updateUser(userId, body);
   }

@@ -9,10 +9,17 @@ import { MongoModule } from './mondo.module';
 import { MongooseModule } from '@nestjs/mongoose';
 
 import config from '../configs';
+import { VehicleController } from 'src/controllers/vehicle.controller';
+import { VehicleService } from 'src/services/vehicle.service';
 
 @Module({
   imports: [MongooseModule.forRoot(config.mongoUrl), MongoModule, MongoModule],
-  controllers: [AppController, AuthenticationController, UserController],
-  providers: [AppService, AuthenticationService, UserService],
+  controllers: [
+    AppController,
+    AuthenticationController,
+    UserController,
+    VehicleController,
+  ],
+  providers: [AppService, AuthenticationService, UserService, VehicleService],
 })
 export class AppModule {}

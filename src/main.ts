@@ -8,7 +8,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const swaggerConfig = new DocumentBuilder()
-    .setTitle('SWQ API Documentation')
+    .setTitle('Easyselling')
     .setDescription('')
     .setVersion('1.0')
     .addSecurity('Bearer', {
