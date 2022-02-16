@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  nodejs:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    networks:
+      - reverse-proxy
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.EASYSELLING_API_NODE.rule=Host(`api.easyselling.maxencemottard.com`)
+      - traefik.http.routers.EASYSELLING_API_NODE.entrypoints=http
+      - traefik.http.routers.EASYSELLING_API_NODE.middlewares=https-redirect@file
+      - traefik.http.routers.EASYSELLING_API_NODE-Https.rule=Host(`api.easyselling.maxencemottard.com`)
+      - traefik.http.routers.EASYSELLING_API_NODE-Https.entrypoints=https
+      - traefik.http.routers.EASYSELLING_API_NODE-Https.middlewares=security@file, compression@file
+      - traefik.http.routers.EASYSELLING_API_NODE-Https.tls=true
+      - traefik.http.routers.EASYSELLING_API_NODE-Https.tls.certresolver=letsencrypt
+
+networks:
+  reverse-proxy:
+    external: true
