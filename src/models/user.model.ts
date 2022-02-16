@@ -13,10 +13,10 @@ export class User {
   @Prop({ select: false, required: true })
   firebaseId: string;
 
-  @Prop({ required: true })
+  @Prop()
   firstname: string;
 
-  @Prop({ required: true })
+  @Prop()
   lastname: string;
 
   @Prop({ select: false })

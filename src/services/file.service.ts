@@ -27,7 +27,7 @@ export class FileService {
       await this.fileRepository.insert({
         filename_disk: filename,
         type: parameters.mimetype,
-        url: `${config.apiUrl}/file/${filename}`,
+        url: `${config.apiUrl}/files/${filename}`,
       }),
     );
   };

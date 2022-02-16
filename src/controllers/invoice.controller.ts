@@ -14,7 +14,7 @@ import { VehicleOwnerGuard } from '../guards/vehicle-owner.guard';
 import { InvoiceService } from '../services/invoice.service';
 import { InvoiceDTO } from '../dto/invoice.dto';
 
-@Controller('invoice')
+@Controller('/invoices')
 @ApiTags('Invoices')
 export class InvoiceController {
   constructor(private readonly invoiceService: InvoiceService) {}
@@ -47,7 +47,7 @@ export class InvoiceController {
   }
 
   @Delete(':invoiceId')
-  @UseGuards(FirebaseTokenGuard, VehicleOwnerGuard)
+  @UseGuards(FirebaseTokenGuard)
   @ApiSecurity('Bearer')
   deleteVehicle(@Param('invoiceId') invoiceId: string) {
     return this.invoiceService.deleteInvoice(invoiceId);

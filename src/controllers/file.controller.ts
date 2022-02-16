@@ -3,7 +3,6 @@ import {
   Get,
   Param,
   Post,
-  Req,
   Res,
   UploadedFile,
   UseGuards,
@@ -15,7 +14,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { FirebaseTokenGuard } from 'src/guards/firebase-token.guard';
 import { ApiFile } from '../decorators/ApiFile';
 
-@Controller('file')
+@Controller('files')
 @ApiTags('Files')
 export class FileController {
   constructor(private readonly fileService: FileService) {}
@@ -31,8 +30,8 @@ export class FileController {
   }
 
   @Get(':filename')
-  @UseGuards(FirebaseTokenGuard)
-  @ApiSecurity('Bearer')
+  // @UseGuards(FirebaseTokenGuard)
+  // @ApiSecurity('Bearer')
   async readFile(@Res() res, @Param('filename') filename: string) {
     const { buffer, type } = await this.fileService.readFile(filename);
 

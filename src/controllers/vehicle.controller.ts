@@ -15,7 +15,7 @@ import { ApiSecurity, ApiTags } from '@nestjs/swagger';
 import { VehicleDTO } from '../dto/vehicle.dto';
 import { VehicleOwnerGuard } from '../guards/vehicle-owner.guard';
 
-@Controller('items/vehicles')
+@Controller('vehicles')
 @ApiTags('Vehicles')
 export class VehicleController {
   constructor(private readonly vehicleService: VehicleService) {}

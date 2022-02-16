@@ -8,7 +8,7 @@ export class File {
   _id: Types.ObjectId;
 
   @Prop({ required: true })
-  filename_disk: string;
+  filename: string;
 
   @Prop({ required: true })
   type: string;

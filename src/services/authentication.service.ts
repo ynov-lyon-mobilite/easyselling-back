@@ -21,15 +21,18 @@ export class AuthenticationService {
 
       const { idToken, refreshToken } = result.data;
 
-      return new APIDto({ access_token: idToken, refresh_token: refreshToken });
+      return new APIDto({ accessToken: idToken, refreshToken: refreshToken });
     } catch (e) {
       console.log(e);
       throw new UnauthorizedException({ error: 'BAD_CREDENTIALS' });
     }
   };
 
-  refreshToken = async ({ refresh_token }: RefreshDTO) => {
-    const data = JSON.stringify({ grant_type: 'refresh_token', refresh_token });
+  refreshToken = async ({ refreshToken }: RefreshDTO) => {
+    const data = JSON.stringify({
+      grant_type: 'refresh_token',
+      refresh_token: refreshToken,
+    });
 
     try {
       const result = await axios({
@@ -41,7 +44,10 @@ export class AuthenticationService {
 
       const { access_token, refresh_token } = result.data;
 
-      return new APIDto({ access_token, refresh_token });
+      return new APIDto({
+        accessToken: access_token,
+        refreshToken: refresh_token,
+      });
     } catch (e) {
       console.log(e);
       throw new UnauthorizedException({ error: 'BAD_CREDENTIALS' });
