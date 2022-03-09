@@ -8,6 +8,11 @@ import { Invoice, InvoiceSchema } from '../models/invoice.model';
 import { InvoiceRepository } from '../repositories/invoice.repository';
 import { File, FileSchema } from '../models/file.model';
 import { FileRepository } from '../repositories/file.repository';
+import {
+  VehicleAuthorization,
+  VehicleAuthorizationSchema,
+} from '../models/vehicle-authorization.model';
+import { VehicleAuthorizationRepository } from '../repositories/vehicle-authorization.repository';
 
 @Module({
   imports: [
@@ -19,18 +24,23 @@ import { FileRepository } from '../repositories/file.repository';
     NestMongooseModule.forFeature([
       { name: Invoice.name, schema: InvoiceSchema },
     ]),
+    NestMongooseModule.forFeature([
+      { name: VehicleAuthorization.name, schema: VehicleAuthorizationSchema },
+    ]),
   ],
   providers: [
     UserRepository,
     VehicleRepository,
     InvoiceRepository,
     FileRepository,
+    VehicleAuthorizationRepository,
   ],
   exports: [
     UserRepository,
     VehicleRepository,
     InvoiceRepository,
     FileRepository,
+    VehicleAuthorizationRepository,
   ],
 })
 export class MongoModule {}
