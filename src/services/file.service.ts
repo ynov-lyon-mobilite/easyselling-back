@@ -25,7 +25,7 @@ export class FileService {
 
     return new APIDto(
       await this.fileRepository.insert({
-        filename_disk: filename,
+        filename,
         type: parameters.mimetype,
         url: `${config.apiUrl}/files/${filename}`,
       }),
