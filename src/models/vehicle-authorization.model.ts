@@ -23,7 +23,10 @@ export class VehicleAuthorization {
   isActive: string;
 
   @Prop()
-  activationDate: number;
+  activationDate: Date;
+
+  @Prop()
+  expirationDate: Date;
 
   @Prop({ select: false })
   __v: number;

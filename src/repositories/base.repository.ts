@@ -132,7 +132,7 @@ export type AdditionalParams = {
 export type FilterQuery<T> = MongooseFilterQuery<T>;
 export type DataType = Record<
   string,
-  number | string | boolean | null | Types.ObjectId | any[]
+  number | string | boolean | null | Types.ObjectId | any[] | Date
 >;
 
 export default BaseRepository;

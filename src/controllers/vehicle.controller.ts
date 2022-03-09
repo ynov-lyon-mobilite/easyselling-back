@@ -24,8 +24,15 @@ export class VehicleController {
   @Get('')
   @UseGuards(FirebaseTokenGuard)
   @ApiSecurity('Bearer')
-  getMe(@Req() request) {
+  getUserVehicles(@Req() request) {
     return this.vehicleService.getAll(request.user);
+  }
+
+  @Get('shared')
+  @UseGuards(FirebaseTokenGuard)
+  @ApiSecurity('Bearer')
+  getSharedVehicles(@Req() request) {
+    return this.vehicleService.getSharedVehicles(request.user);
   }
 
   @Post('')
