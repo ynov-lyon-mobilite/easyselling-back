@@ -15,6 +15,7 @@ import { FileController } from 'src/controllers/file.controller';
 import { FileService } from 'src/services/file.service';
 
 import config from '../configs';
+import { MailService } from 'src/services/mail.service';
 
 @Module({
   imports: [MongooseModule.forRoot(config.mongoUrl), MongoModule, MongoModule],
@@ -33,6 +34,7 @@ import config from '../configs';
     VehicleService,
     InvoiceService,
     FileService,
+    MailService,
   ],
 })
 export class AppModule {}
