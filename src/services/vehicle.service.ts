@@ -11,6 +11,7 @@ import { UserRepository } from '../repositories/user.repository';
 import { VehicleAuthorizationRepository } from '../repositories/vehicle-authorization.repository';
 import { MailService, MailTemplate } from './mail.service';
 import config from '../configs';
+import * as moment from 'moment';
 
 @Injectable()
 export class VehicleService {
@@ -25,6 +26,23 @@ export class VehicleService {
     return new APIDto(
       await this.vehicleRepository.findManyBy({ owner: user._id }),
     );
+  };
+
+  getSharedVehicles = async (user: User) => {
+    const authorizations = await this.vehicleAuthorizationRepository.findManyBy(
+      { user: user._id },
+    );
+
+    const vehiclesPromises = authorizations
+      .filter((authorization) =>
+        moment(authorization.expirationDate).isAfter(moment()),
+      )
+      .map((authorization) =>
+        // @ts-ignore
+        this.vehicleRepository.findOneById(authorization.vehicle),
+      );
+
+    return new APIDto(await Promise.all(vehiclesPromises));
   };
 
   createVehicle = async (user: User, parameters: VehicleDTO) => {
@@ -80,7 +98,13 @@ export class VehicleService {
 
     await this.vehicleAuthorizationRepository.updateOneBy(
       { _id: authorizationId },
-      { isActive: true, activationDate: Date.now() },
+      {
+        isActive: true,
+        // @ts-ignore
+        activationDate: moment(),
+        // @ts-ignore
+        expirationDate: moment().add(1, 'day'),
+      },
     );
   };
 }
