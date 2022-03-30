@@ -81,4 +81,18 @@ export class VehicleController {
       request.user,
     );
   }
+
+  @Get('brands')
+  @UseGuards(FirebaseTokenGuard)
+  @ApiSecurity('Bearer')
+  getVehiclesBrand() {
+    return this.vehicleService.getAllBrands();
+  }
+
+  @Get('models')
+  @UseGuards(FirebaseTokenGuard)
+  @ApiSecurity('Bearer')
+  getBrandModels() {
+    return this.vehicleService.getAllModels();
+  }
 }

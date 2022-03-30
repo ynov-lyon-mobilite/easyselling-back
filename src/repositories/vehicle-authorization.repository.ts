@@ -9,14 +9,10 @@ import {
 
 @Injectable()
 export class VehicleAuthorizationRepository extends BaseRepository<VehicleAuthorizationDocument> {
-  @InjectModel(VehicleAuthorization.name)
-  private model: Model<VehicleAuthorizationDocument>;
-
   constructor(
     @InjectModel(VehicleAuthorization.name)
     model: Model<VehicleAuthorizationDocument>,
   ) {
     super(model);
-    this.model = model;
   }
 }

@@ -13,9 +13,10 @@ import { InvoiceController } from '../controllers/invoice.controller';
 import { InvoiceService } from '../services/invoice.service';
 import { FileController } from '../controllers/file.controller';
 import { FileService } from '../services/file.service';
+import { MailService } from '../services/mail.service';
+import { ImportService } from '../services/import.service';
 
 import config from '../configs';
-import { MailService } from '../services/mail.service';
 
 @Module({
   imports: [MongooseModule.forRoot(config.mongoUrl), MongoModule, MongoModule],
@@ -35,6 +36,7 @@ import { MailService } from '../services/mail.service';
     InvoiceService,
     FileService,
     MailService,
+    ImportService,
   ],
 })
 export class AppModule {}

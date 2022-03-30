@@ -107,4 +107,12 @@ export class VehicleService {
       },
     );
   };
+
+  getAllModels = async () => {
+    return new APIDto(await this.vehicleRepository.findAll());
+  };
+
+  getAllBrands = async () => {
+    return new APIDto(await this.vehicleRepository.findAll());
+  };
 }

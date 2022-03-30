@@ -6,10 +6,7 @@ import { Invoice, InvoiceDocument } from '../models/invoice.model';
 
 @Injectable()
 export class InvoiceRepository extends BaseRepository<InvoiceDocument> {
-  @InjectModel(Invoice.name) private model: Model<InvoiceDocument>;
-
   constructor(@InjectModel(Invoice.name) model: Model<InvoiceDocument>) {
     super(model);
-    this.model = model;
   }
 }
