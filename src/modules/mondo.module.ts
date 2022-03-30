@@ -13,6 +13,16 @@ import {
   VehicleAuthorizationSchema,
 } from '../models/vehicle-authorization.model';
 import { VehicleAuthorizationRepository } from '../repositories/vehicle-authorization.repository';
+import { VehicleBrandRepository } from '../repositories/vehicle-brand.repository';
+import { VehicleModelRepository } from '../repositories/vehicle-model.repository';
+import {
+  VehicleBrand,
+  VehicleBrandSchema,
+} from '../models/vehicle-brand.model';
+import {
+  VehicleModel,
+  VehicleModelSchema,
+} from '../models/vehicle-model.model';
 
 @Module({
   imports: [
@@ -27,6 +37,12 @@ import { VehicleAuthorizationRepository } from '../repositories/vehicle-authoriz
     NestMongooseModule.forFeature([
       { name: VehicleAuthorization.name, schema: VehicleAuthorizationSchema },
     ]),
+    NestMongooseModule.forFeature([
+      { name: VehicleBrand.name, schema: VehicleBrandSchema },
+    ]),
+    NestMongooseModule.forFeature([
+      { name: VehicleModel.name, schema: VehicleModelSchema },
+    ]),
   ],
   providers: [
     UserRepository,
@@ -34,6 +50,8 @@ import { VehicleAuthorizationRepository } from '../repositories/vehicle-authoriz
     InvoiceRepository,
     FileRepository,
     VehicleAuthorizationRepository,
+    VehicleBrandRepository,
+    VehicleModelRepository,
   ],
   exports: [
     UserRepository,
@@ -41,6 +59,8 @@ import { VehicleAuthorizationRepository } from '../repositories/vehicle-authoriz
     InvoiceRepository,
     FileRepository,
     VehicleAuthorizationRepository,
+    VehicleBrandRepository,
+    VehicleModelRepository,
   ],
 })
 export class MongoModule {}
