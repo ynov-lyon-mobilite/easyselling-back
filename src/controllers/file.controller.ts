@@ -11,7 +11,7 @@ import {
 import { ApiConsumes, ApiSecurity, ApiTags } from '@nestjs/swagger';
 import { FileService } from '../services/file.service';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { FirebaseTokenGuard } from 'src/guards/firebase-token.guard';
+import { FirebaseTokenGuard } from '../guards/firebase-token.guard';
 import { ApiFile } from '../decorators/ApiFile';
 
 @Controller('files')

@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
 import axios from 'axios';
-import { User } from 'src/models/user.model';
+import { User } from '../models/user.model';
 import config from '../configs';
 import { APIDto } from '../dto/api.dto';
 import { UserDTO } from '../dto/user.dto';

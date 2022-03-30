@@ -2,7 +2,7 @@ import { BadRequestException, Injectable } from '@nestjs/common';
 import firebase from '../configs/firebase.config';
 import { v4 as uuid } from 'uuid';
 import { FileRepository } from '../repositories/file.repository';
-import { APIDto } from 'src/dto/api.dto';
+import { APIDto } from '../dto/api.dto';
 import config from '../configs';
 import { async } from 'rxjs';
 

@@ -3,9 +3,9 @@ import {
   Injectable,
   UnauthorizedException,
 } from '@nestjs/common';
-import { APIDto } from 'src/dto/api.dto';
-import { VehicleDTO } from 'src/dto/vehicle.dto';
-import { User } from 'src/models/user.model';
+import { APIDto } from '../dto/api.dto';
+import { VehicleDTO } from '../dto/vehicle.dto';
+import { User } from '../models/user.model';
 import { VehicleRepository } from '../repositories/vehicle.repository';
 import { UserRepository } from '../repositories/user.repository';
 import { VehicleAuthorizationRepository } from '../repositories/vehicle-authorization.repository';

@@ -1,8 +1,8 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
-import { LoginDTO } from 'src/dto/login.dto';
+import { LoginDTO } from '../dto/login.dto';
 import axios from 'axios';
 
-import { APIDto } from 'src/dto/api.dto';
+import { APIDto } from '../dto/api.dto';
 import config from '../configs';
 import { RefreshDTO } from '../dto/refresh.dto';
 
