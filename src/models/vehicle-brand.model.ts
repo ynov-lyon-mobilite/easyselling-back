@@ -9,6 +9,9 @@ export class VehicleBrand {
 
   @Prop({ required: true })
   name: string;
+
+  @Prop({ select: false })
+  __v: number;
 }
 
 export const VehicleBrandSchema = SchemaFactory.createForClass(VehicleBrand);
