@@ -12,11 +12,15 @@ import { VehicleAuthorizationRepository } from '../repositories/vehicle-authoriz
 import { MailService, MailTemplate } from './mail.service';
 import config from '../configs';
 import * as moment from 'moment';
+import { VehicleBrandRepository } from '../repositories/vehicle-brand.repository';
+import { VehicleModelRepository } from '../repositories/vehicle-model.repository';
 
 @Injectable()
 export class VehicleService {
   constructor(
     private readonly vehicleRepository: VehicleRepository,
+    private readonly vehicleBrandRepository: VehicleBrandRepository,
+    private readonly vehicleModelRepository: VehicleModelRepository,
     private readonly userRepository: UserRepository,
     private readonly vehicleAuthorizationRepository: VehicleAuthorizationRepository,
     private readonly mailService: MailService,
@@ -109,10 +113,10 @@ export class VehicleService {
   };
 
   getAllModels = async () => {
-    return new APIDto(await this.vehicleRepository.findAll());
+    return new APIDto(await this.vehicleModelRepository.findAll());
   };
 
   getAllBrands = async () => {
-    return new APIDto(await this.vehicleRepository.findAll());
+    return new APIDto(await this.vehicleBrandRepository.findAll());
   };
 }
