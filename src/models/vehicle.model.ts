@@ -9,7 +9,7 @@ export class Vehicle {
   _id: Types.ObjectId;
 
   @Prop({ required: true })
-  license: string;
+  licence: string;
 
   @Prop({ required: true })
   model: string;

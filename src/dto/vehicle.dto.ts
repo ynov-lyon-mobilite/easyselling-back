@@ -10,7 +10,7 @@ export class VehicleDTO {
   model: string;
 
   @ApiProperty()
-  license: string;
+  licence: string;
 
   @ApiProperty()
   type: VehicleType;
