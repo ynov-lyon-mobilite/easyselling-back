@@ -1,0 +1,46 @@
+<mjml owa="desktop" version="4.10.1">
+  <mj-head>
+    <mj-font href="https://fonts.googleapis.com/css?family=tahoma" name="tahoma"></mj-font>
+  </mj-head>
+  <mj-body background-color="#F4F4F4" color="#5e6977" font-family="Arial, sans-serif" font-size="13px">
+    <mj-section background-color="#f2ab1f" background-repeat="repeat" padding-bottom="0px" padding-left="0px" padding-right="0px" padding-top="0px" padding="0px 0px 0px 0px" text-align="center" vertical-align="top">
+      <mj-column padding="0 0 0 0" vertical-align="top">
+        <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="13px" letter-spacing="normal" padding-bottom="0px" padding-top="0px" padding="10px 25px">
+          <h1 style="text-align:center; margin-top: 10px; margin-bottom: 10px"><span style="text-align:center;font-size:32px;letter-spacing:normal;text-align:left;color:#000000;font-family:Arial;"><b>EasySelling</b></span></h1>
+        </mj-text>
+        <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="13px" letter-spacing="normal" padding-bottom="0px" padding-top="20px" padding="20px 0 0 0">
+          <p style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px;"><span style="text-align:center;font-size:22px;letter-spacing:normal;text-align:left;color:#000000;font-family:Arial;"><b>Un utilisateur souhaite vous partager son véhicule</b></span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-repeat="repeat" padding="20px 0" text-align="center" vertical-align="top">
+      <mj-column>
+
+      </mj-column>
+      <mj-column>
+        <mj-image align="center" alt="" border="none" height="auto" href="" padding="10px 25px" src="https://cdn-icons-png.flaticon.com/512/1234/1234680.png" target="_blank" title="" width="512px"></mj-image>
+      </mj-column>
+      <mj-column>
+
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" background-repeat="repeat" background-size="auto" padding="0 0 0 0" text-align="center" vertical-align="top">
+      <mj-column padding="0 0 0 0">
+        <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="18px" letter-spacing="normal" padding-bottom="0px" padding-top="0px" padding="0 0 0 0">
+          <p class="text-build-content" style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px;" data-testid="3MKb68WzPb7"><span style="color:#2b2b2b;font-family:Arial;font-size:18px;line-height:22px;">Si vous souhaitez accéder à ce véhicule.</span></p>
+        </mj-text>
+        <mj-button href="{{url}}" align="center" background-color="#f2ab1f" border-radius="203px" border="none" color="#ffffff" container-background-color="#ffffff" font-family="Arial, sans-serif" font-size="16px" font-weight="normal" href="" inner-padding="10px 25px 10px 25px" padding-bottom="20px" padding-left="25px" padding-right="25px" padding="10px 25px 20px 25px" text-decoration="none" text-transform="none" vertical-align="middle">
+          <span style="font-size:16px;">Cliquez ici</span>
+        </mj-button>
+        <mj-divider border-color="#C2C2C2" border-style="dotted" border-width="1px" padding-bottom="10px" padding-top="10px" padding="10px 25px" width="100%"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" background-repeat="repeat" background-size="auto" padding-bottom="0px" padding-top="0px" padding="0px 0 0px 0" text-align="center" vertical-align="middle">
+      <mj-column padding="0 0 0 0" vertical-align="middle">
+        <mj-text align="left" color="#000000" font-family="Arial, sans-serif" font-size="18px" letter-spacing="normal" padding-bottom="0px" padding-top="0px" padding="10px 25px">
+          <p class="text-build-content" style="text-align: center; margin: 10px 0; margin-top: 10px; margin-bottom: 10px;" data-testid="YBmheCWEa"><span style="font-family:Arial;font-size:18px;">Si vous n'êtes pas intéressé où si cet e-mail vous a été envoyé par erreur merci de ne pas prendre en compte cet e-mail.</span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

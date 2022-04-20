@@ -1,7 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import * as nodemailer from 'nodemailer';
 import config from '../configs';
-import fs from 'fs';
+import * as fs from 'fs';
+import handlebars from 'handlebars';
+import * as mjml from 'mjml';
 
 @Injectable()
 export class MailService {
@@ -20,19 +22,14 @@ export class MailService {
   }
 
   private getTemplate = (template: MailTemplate, data: Record<string, any>) => {
-    // const mjmlTemplate = fs.readFileSync(
-    //   `${__dirname}/../../templates/${template}.template.mjml`,
-    //   { encoding: 'utf-8' },
-    // );
-    //
-    // const formattedMjml = mjml(mjmlTemplate);
-    //
-    // return handlebars.compile(formattedMjml.html)(data);
+    const mjmlTemplate = fs.readFileSync(
+      `${__dirname}/../../../templates/${template}.template.mjml`,
+      { encoding: 'utf-8' },
+    );
 
-    switch (template) {
-      case MailTemplate.shareVehicle:
-        return `<a href="${data.url}" target="_blank">Clique ici batard</a>`;
-    }
+    const formattedMjml = mjml(mjmlTemplate);
+
+    return handlebars.compile(formattedMjml.html)(data);
   };
 
   private getSubject = (template: MailTemplate) => {
