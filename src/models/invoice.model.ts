@@ -9,6 +9,15 @@ export type InvoiceDocument = Invoice & Document;
 export class Invoice {
   _id: Types.ObjectId;
 
+  @Prop()
+  label?: string;
+
+  @Prop({ required: true })
+  mileage: number;
+
+  @Prop({ required: true })
+  date: Date;
+
   @Prop({ required: true, type: Types.ObjectId, ref: Vehicle.name })
   vehicle: Types.ObjectId;
 

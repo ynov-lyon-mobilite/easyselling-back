@@ -2,7 +2,14 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class InvoiceDTO {
   @ApiProperty()
-  // @IsNotEmpty()
-  // @IsEmail()
+  label?: string;
+
+  @ApiProperty()
+  mileage: number;
+
+  @ApiProperty()
+  date: Date;
+
+  @ApiProperty()
   file: string;
 }
