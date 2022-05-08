@@ -3,6 +3,8 @@ import {
   Injectable,
   UnauthorizedException,
 } from '@nestjs/common';
+import * as moment from 'moment';
+import { Cron } from '@nestjs/schedule';
 import { APIDto } from '../dto/api.dto';
 import { VehicleDTO } from '../dto/vehicle.dto';
 import { User } from '../models/user.model';
@@ -10,10 +12,10 @@ import { VehicleRepository } from '../repositories/vehicle.repository';
 import { UserRepository } from '../repositories/user.repository';
 import { VehicleAuthorizationRepository } from '../repositories/vehicle-authorization.repository';
 import { MailService, MailTemplate } from './mail.service';
-import config from '../configs';
-import * as moment from 'moment';
 import { VehicleBrandRepository } from '../repositories/vehicle-brand.repository';
 import { VehicleModelRepository } from '../repositories/vehicle-model.repository';
+
+import config from '../configs';
 
 @Injectable()
 export class VehicleService {
@@ -34,7 +36,7 @@ export class VehicleService {
 
   getSharedVehicles = async (user: User) => {
     const authorizations = await this.vehicleAuthorizationRepository.findManyBy(
-      { user: user._id },
+      { user: user._id, isActive: true },
     );
 
     const vehiclesPromises = authorizations
@@ -111,6 +113,22 @@ export class VehicleService {
       },
     );
   };
+
+  @Cron('*/5 * * * * *')
+  async deactivateShareInvitation() {
+    const authorizations = await this.vehicleAuthorizationRepository.findManyBy(
+      { isActive: true },
+    );
+
+    authorizations.map((authorization) => {
+      if (moment(authorization.expirationDate).isBefore(moment())) {
+        this.vehicleAuthorizationRepository.updateOneBy(
+          { _id: authorization._id },
+          { isActive: false },
+        );
+      }
+    });
+  }
 
   getAllModels = async () => {
     return new APIDto(await this.vehicleModelRepository.findAll());
