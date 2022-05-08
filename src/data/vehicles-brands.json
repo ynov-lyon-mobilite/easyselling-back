@@ -1,1637 +1,1270 @@
 [
   {
-    "id":"1",
-    "brandName":"AIWAYS",
-    "type":"car"
+    "id": "1",
+    "brandName": "AIWAYS"
   },
   {
-    "id":"2",
-    "brandName":"ALEKO",
-    "type":"car"
+    "id": "2",
+    "brandName": "ALEKO"
   },
   {
-    "id":"3",
-    "brandName":"ALFA ROMEO",
-    "type":"car"
+    "id": "3",
+    "brandName": "ALFA ROMEO"
   },
   {
-    "id":"4",
-    "brandName":"ALPINE RENAULT",
-    "type":"car"
+    "id": "4",
+    "brandName": "ALPINE RENAULT"
   },
   {
-    "id":"5",
-    "brandName":"ARO",
-    "type":"car"
+    "id": "5",
+    "brandName": "ARO"
   },
   {
-    "id":"6",
-    "brandName":"ASIA",
-    "type":"car"
+    "id": "6",
+    "brandName": "ASIA"
   },
   {
-    "id":"7",
-    "brandName":"ASTON MARTIN",
-    "type":"car"
+    "id": "7",
+    "brandName": "ASTON MARTIN"
   },
   {
-    "id":"8",
-    "brandName":"AUDI",
-    "type":"car"
+    "id": "8",
+    "brandName": "AUDI"
   },
   {
-    "id":"9",
-    "brandName":"AUSTIN",
-    "type":"car"
+    "id": "9",
+    "brandName": "AUSTIN"
   },
   {
-    "id":"10",
-    "brandName":"AUTOBIANCHI",
-    "type":"car"
+    "id": "10",
+    "brandName": "AUTOBIANCHI"
   },
   {
-    "id":"11",
-    "brandName":"AUVERLAND",
-    "type":"car"
+    "id": "11",
+    "brandName": "AUVERLAND"
   },
   {
-    "id":"12",
-    "brandName":"BEDFORD",
-    "type":"car"
+    "id": "12",
+    "brandName": "BEDFORD"
   },
   {
-    "id":"13",
-    "brandName":"BEE BEE AUTOMOTIVE",
-    "type":"car"
+    "id": "13",
+    "brandName": "BEE BEE AUTOMOTIVE"
   },
   {
-    "id":"14",
-    "brandName":"BENTLEY",
-    "type":"car"
+    "id": "14",
+    "brandName": "BENTLEY"
   },
   {
-    "id":"15",
-    "brandName":"BERTONE",
-    "type":"car"
+    "id": "15",
+    "brandName": "BERTONE"
   },
   {
-    "id":"16",
-    "brandName":"BMW",
-    "type":"car"
+    "id": "16",
+    "brandName": "BMW"
   },
   {
-    "id":"17",
-    "brandName":"BUICK",
-    "type":"car"
+    "id": "17",
+    "brandName": "BUICK"
   },
   {
-    "id":"18",
-    "brandName":"CADILLAC",
-    "type":"car"
+    "id": "18",
+    "brandName": "CADILLAC"
   },
   {
-    "id":"19",
-    "brandName":"CHEVROLET",
-    "type":"car"
+    "id": "19",
+    "brandName": "CHEVROLET"
   },
   {
-    "id":"20",
-    "brandName":"CHRYSLER",
-    "type":"car"
+    "id": "20",
+    "brandName": "CHRYSLER"
   },
   {
-    "id":"21",
-    "brandName":"CITROEN",
-    "type":"car"
+    "id": "21",
+    "brandName": "CITROEN"
   },
   {
-    "id":"22",
-    "brandName":"COURB",
-    "type":"car"
+    "id": "22",
+    "brandName": "COURB"
   },
   {
-    "id":"23",
-    "brandName":"CUPRA",
-    "type":"car"
+    "id": "23",
+    "brandName": "CUPRA"
   },
   {
-    "id":"24",
-    "brandName":"DACIA",
-    "type":"car"
+    "id": "24",
+    "brandName": "DACIA"
   },
   {
-    "id":"25",
-    "brandName":"DAEWOO",
-    "type":"car"
+    "id": "25",
+    "brandName": "DAEWOO"
   },
   {
-    "id":"26",
-    "brandName":"DAF",
-    "type":"car"
+    "id": "26",
+    "brandName": "DAF"
   },
   {
-    "id":"27",
-    "brandName":"DAIHATSU",
-    "type":"car"
+    "id": "27",
+    "brandName": "DAIHATSU"
   },
   {
-    "id":"28",
-    "brandName":"DAIMLER",
-    "type":"car"
+    "id": "28",
+    "brandName": "DAIMLER"
   },
   {
-    "id":"29",
-    "brandName":"DATSUN",
-    "type":"car"
+    "id": "29",
+    "brandName": "DATSUN"
   },
   {
-    "id":"30",
-    "brandName":"DFSK",
-    "type":"car"
+    "id": "30",
+    "brandName": "DFSK"
   },
   {
-    "id":"31",
-    "brandName":"DODGE",
-    "type":"car"
+    "id": "31",
+    "brandName": "DODGE"
   },
   {
-    "id":"32",
-    "brandName":"DS",
-    "type":"car"
+    "id": "32",
+    "brandName": "DS"
   },
   {
-    "id":"33",
-    "brandName":"EBRO",
-    "type":"car"
+    "id": "33",
+    "brandName": "EBRO"
   },
   {
-    "id":"34",
-    "brandName":"FIAT",
-    "type":"car"
+    "id": "34",
+    "brandName": "FIAT"
   },
   {
-    "id":"35",
-    "brandName":"FISKER",
-    "type":"car"
+    "id": "35",
+    "brandName": "FISKER"
   },
   {
-    "id":"36",
-    "brandName":"FORD",
-    "type":"car"
+    "id": "36",
+    "brandName": "FORD"
   },
   {
-    "id":"37",
-    "brandName":"FSO-POLSKI",
-    "type":"car"
+    "id": "37",
+    "brandName": "FSO-POLSKI"
   },
   {
-    "id":"38",
-    "brandName":"GAC GONOW",
-    "type":"car"
+    "id": "38",
+    "brandName": "GAC GONOW"
   },
   {
-    "id":"39",
-    "brandName":"GME",
-    "type":"car"
+    "id": "39",
+    "brandName": "GME"
   },
   {
-    "id":"40",
-    "brandName":"GRANDIN",
-    "type":"car"
+    "id": "40",
+    "brandName": "GRANDIN"
   },
   {
-    "id":"41",
-    "brandName":"HONDA",
-    "type":"car"
+    "id": "41",
+    "brandName": "HONDA"
   },
   {
-    "id":"42",
-    "brandName":"HYUNDAI",
-    "type":"car"
+    "id": "42",
+    "brandName": "HYUNDAI"
   },
   {
-    "id":"43",
-    "brandName":"INFINITI",
-    "type":"car"
+    "id": "43",
+    "brandName": "INFINITI"
   },
   {
-    "id":"44",
-    "brandName":"INNOCENTI",
-    "type":"car"
+    "id": "44",
+    "brandName": "INNOCENTI"
   },
   {
-    "id":"45",
-    "brandName":"ISUZU",
-    "type":"car"
+    "id": "45",
+    "brandName": "ISUZU"
   },
   {
-    "id":"46",
-    "brandName":"IVECO",
-    "type":"car"
+    "id": "46",
+    "brandName": "IVECO"
   },
   {
-    "id":"47",
-    "brandName":"JAGUAR",
-    "type":"car"
+    "id": "47",
+    "brandName": "JAGUAR"
   },
   {
-    "id":"48",
-    "brandName":"JEEP",
-    "type":"car"
+    "id": "48",
+    "brandName": "JEEP"
   },
   {
-    "id":"49",
-    "brandName":"KIA",
-    "type":"car"
+    "id": "49",
+    "brandName": "KIA"
   },
   {
-    "id":"50",
-    "brandName":"LADA",
-    "type":"car"
+    "id": "50",
+    "brandName": "LADA"
   },
   {
-    "id":"51",
-    "brandName":"LANCIA",
-    "type":"car"
+    "id": "51",
+    "brandName": "LANCIA"
   },
   {
-    "id":"52",
-    "brandName":"LAND ROVER",
-    "type":"car"
+    "id": "52",
+    "brandName": "LAND ROVER"
   },
   {
-    "id":"53",
-    "brandName":"LDV",
-    "type":"car"
+    "id": "53",
+    "brandName": "LDV"
   },
   {
-    "id":"54",
-    "brandName":"LEXUS",
-    "type":"car"
+    "id": "54",
+    "brandName": "LEXUS"
   },
   {
-    "id":"55",
-    "brandName":"LOTUS",
-    "type":"car"
+    "id": "55",
+    "brandName": "LOTUS"
   },
   {
-    "id":"56",
-    "brandName":"LYNK&CO",
-    "type":"car"
+    "id": "56",
+    "brandName": "LYNK&CO"
   },
   {
-    "id":"57",
-    "brandName":"MAHINDRA",
-    "type":"car"
+    "id": "57",
+    "brandName": "MAHINDRA"
   },
   {
-    "id":"58",
-    "brandName":"MAN",
-    "type":"car"
+    "id": "58",
+    "brandName": "MAN"
   },
   {
-    "id":"59",
-    "brandName":"MARUTI",
-    "type":"car"
+    "id": "59",
+    "brandName": "MARUTI"
   },
   {
-    "id":"60",
-    "brandName":"MASERATI",
-    "type":"car"
+    "id": "60",
+    "brandName": "MASERATI"
   },
   {
-    "id":"61",
-    "brandName":"MATRA",
-    "type":"car"
+    "id": "61",
+    "brandName": "MATRA"
   },
   {
-    "id":"62",
-    "brandName":"MAZDA",
-    "type":"car"
+    "id": "62",
+    "brandName": "MAZDA"
   },
   {
-    "id":"63",
-    "brandName":"MCC",
-    "type":"car"
+    "id": "63",
+    "brandName": "MCC"
   },
   {
-    "id":"64",
-    "brandName":"MEGA",
-    "type":"car"
+    "id": "64",
+    "brandName": "MEGA"
   },
   {
-    "id":"65",
-    "brandName":"MERCEDES",
-    "type":"car"
+    "id": "65",
+    "brandName": "MERCEDES"
   },
   {
-    "id":"66",
-    "brandName":"MG",
-    "type":"car"
+    "id": "66",
+    "brandName": "MG"
   },
   {
-    "id":"67",
-    "brandName":"MIA",
-    "type":"car"
+    "id": "67",
+    "brandName": "MIA"
   },
   {
-    "id":"68",
-    "brandName":"MINI",
-    "type":"car"
+    "id": "68",
+    "brandName": "MINI"
   },
   {
-    "id":"69",
-    "brandName":"MITSUBISHI",
-    "type":"car"
+    "id": "69",
+    "brandName": "MITSUBISHI"
   },
   {
-    "id":"70",
-    "brandName":"MPM MOTORS",
-    "type":"car"
+    "id": "70",
+    "brandName": "MPM MOTORS"
   },
   {
-    "id":"71",
-    "brandName":"NISSAN",
-    "type":"car"
+    "id": "71",
+    "brandName": "NISSAN"
   },
   {
-    "id":"72",
-    "brandName":"OPEL",
-    "type":"car"
+    "id": "72",
+    "brandName": "OPEL"
   },
   {
-    "id":"73",
-    "brandName":"PANHARD",
-    "type":"car"
+    "id": "73",
+    "brandName": "PANHARD"
   },
   {
-    "id":"74",
-    "brandName":"PEUGEOT",
-    "type":"car"
+    "id": "74",
+    "brandName": "PEUGEOT"
   },
   {
-    "id":"75",
-    "brandName":"PIAGGIO",
-    "type":"car"
+    "id": "75",
+    "brandName": "PIAGGIO"
   },
   {
-    "id":"76",
-    "brandName":"PONTIAC",
-    "type":"car"
+    "id": "76",
+    "brandName": "PONTIAC"
   },
   {
-    "id":"77",
-    "brandName":"PORSCHE",
-    "type":"car"
+    "id": "77",
+    "brandName": "PORSCHE"
   },
   {
-    "id":"78",
-    "brandName":"PROTON",
-    "type":"car"
+    "id": "78",
+    "brandName": "PROTON"
   },
   {
-    "id":"79",
-    "brandName":"RENAULT",
-    "type":"car"
+    "id": "79",
+    "brandName": "RENAULT"
   },
   {
-    "id":"80",
-    "brandName":"ROVER",
-    "type":"car"
+    "id": "80",
+    "brandName": "ROVER"
   },
   {
-    "id":"81",
-    "brandName":"SAAB",
-    "type":"car"
+    "id": "81",
+    "brandName": "SAAB"
   },
   {
-    "id":"82",
-    "brandName":"SANTANA",
-    "type":"car"
+    "id": "82",
+    "brandName": "SANTANA"
   },
   {
-    "id":"83",
-    "brandName":"SEAT",
-    "type":"car"
+    "id": "83",
+    "brandName": "SEAT"
   },
   {
-    "id":"84",
-    "brandName":"SKODA",
-    "type":"car"
+    "id": "84",
+    "brandName": "SKODA"
   },
   {
-    "id":"85",
-    "brandName":"SMART",
-    "type":"car"
+    "id": "85",
+    "brandName": "SMART"
   },
   {
-    "id":"86",
-    "brandName":"SSANGYONG",
-    "type":"car"
+    "id": "86",
+    "brandName": "SSANGYONG"
   },
   {
-    "id":"87",
-    "brandName":"SUBARU",
-    "type":"car"
+    "id": "87",
+    "brandName": "SUBARU"
   },
   {
-    "id":"88",
-    "brandName":"SUNBEAM",
-    "type":"car"
+    "id": "88",
+    "brandName": "SUNBEAM"
   },
   {
-    "id":"89",
-    "brandName":"SUZUKI",
-    "type":"car"
+    "id": "89",
+    "brandName": "SUZUKI"
   },
   {
-    "id":"90",
-    "brandName":"TALBOT",
-    "type":"car"
+    "id": "90",
+    "brandName": "TALBOT"
   },
   {
-    "id":"91",
-    "brandName":"TATA",
-    "type":"car"
+    "id": "91",
+    "brandName": "TATA"
   },
   {
-    "id":"92",
-    "brandName":"TESLA",
-    "type":"car"
+    "id": "92",
+    "brandName": "TESLA"
   },
   {
-    "id":"93",
-    "brandName":"THINK",
-    "type":"car"
+    "id": "93",
+    "brandName": "THINK"
   },
   {
-    "id":"94",
-    "brandName":"TOYOTA",
-    "type":"car"
+    "id": "94",
+    "brandName": "TOYOTA"
   },
   {
-    "id":"95",
-    "brandName":"TRIUMPH",
-    "type":"car"
+    "id": "95",
+    "brandName": "TRIUMPH"
   },
   {
-    "id":"96",
-    "brandName":"UMM",
-    "type":"car"
+    "id": "96",
+    "brandName": "UMM"
   },
   {
-    "id":"97",
-    "brandName":"VOLKSWAGEN",
-    "type":"car"
+    "id": "97",
+    "brandName": "VOLKSWAGEN"
   },
   {
-    "id":"98",
-    "brandName":"VOLVO",
-    "type":"car"
+    "id": "98",
+    "brandName": "VOLVO"
   },
   {
-    "id":"99",
-    "brandName":"ZASTAVA",
-    "type":"car"
+    "id": "99",
+    "brandName": "ZASTAVA"
   },
   {
-    "id":"100",
-    "brandName":"ZAZ",
-    "type":"car"
+    "id": "100",
+    "brandName": "ZAZ"
   },
   {
-    "id":"101",
-    "brandName":"BOLLORE",
-    "type":"car"
+    "id": "101",
+    "brandName": "BOLLORE"
   },
   {
-    "id":"102",
-    "brandName":"CORVETTE",
-    "type":"car"
+    "id": "102",
+    "brandName": "CORVETTE"
   },
   {
-    "id":"103",
-    "brandName":"DALLAS",
-    "type":"car"
+    "id": "103",
+    "brandName": "DALLAS"
   },
   {
-    "id":"104",
-    "brandName":"FERRARI",
-    "type":"car"
+    "id": "104",
+    "brandName": "FERRARI"
   },
   {
-    "id":"105",
-    "brandName":"FSO",
-    "type":"car"
+    "id": "105",
+    "brandName": "FSO"
   },
   {
-    "id":"106",
-    "brandName":"FUSO",
-    "type":"car"
+    "id": "106",
+    "brandName": "FUSO"
   },
   {
-    "id":"107",
-    "brandName":"HOTCHKISS",
-    "type":"car"
+    "id": "107",
+    "brandName": "HOTCHKISS"
   },
   {
-    "id":"108",
-    "brandName":"HUMMER",
-    "type":"car"
+    "id": "108",
+    "brandName": "HUMMER"
   },
   {
-    "id":"109",
-    "brandName":"LAMBORGHINI",
-    "type":"car"
+    "id": "109",
+    "brandName": "LAMBORGHINI"
   },
   {
-    "id":"110",
-    "brandName":"MGF",
-    "type":"car"
+    "id": "110",
+    "brandName": "MGF"
   },
   {
-    "id":"111",
-    "brandName":"MORGAN",
-    "type":"car"
+    "id": "111",
+    "brandName": "MORGAN"
   },
   {
-    "id":"112",
-    "brandName":"PGO",
-    "type":"car"
+    "id": "112",
+    "brandName": "PGO"
   },
   {
-    "id":"113",
-    "brandName":"POLSKI-FSO",
-    "type":"car"
+    "id": "113",
+    "brandName": "POLSKI-FSO"
   },
   {
-    "id":"114",
-    "brandName":"ROLLS ROYCE",
-    "type":"car"
+    "id": "114",
+    "brandName": "ROLLS ROYCE"
   },
   {
-    "id":"115",
-    "brandName":"SIMCA",
-    "type":"car"
+    "id": "115",
+    "brandName": "SIMCA"
   },
   {
-    "id":"116",
-    "brandName":"TAVRIA",
-    "type":"car"
+    "id": "116",
+    "brandName": "TAVRIA"
   },
   {
-    "id":"117",
-    "brandName":"TEILHOL",
-    "type":"car"
+    "id": "117",
+    "brandName": "TEILHOL"
   },
   {
-    "id":"118",
-    "brandName":"WILLYS",
-    "type":"car"
+    "id": "118",
+    "brandName": "WILLYS"
   },
   {
-    "id":"119",
-    "brandName":"ACMA",
-    "type":"moto"
+    "id": "119",
+    "brandName": "ACMA"
   },
   {
-    "id":"120",
-    "brandName":"ADIVA",
-    "type":"moto"
+    "id": "120",
+    "brandName": "ADIVA"
   },
   {
-    "id":"121",
-    "brandName":"AEON",
-    "type":"moto"
+    "id": "121",
+    "brandName": "AEON"
   },
   {
-    "id":"122",
-    "brandName":"AJP",
-    "type":"moto"
+    "id": "122",
+    "brandName": "AJP"
   },
   {
-    "id":"123",
-    "brandName":"APRILIA",
-    "type":"moto"
+    "id": "123",
+    "brandName": "APRILIA"
   },
   {
-    "id":"124",
-    "brandName":"ARDILA",
-    "type":"moto"
+    "id": "124",
+    "brandName": "ARDILA"
   },
   {
-    "id":"125",
-    "brandName":"AVINTON",
-    "type":"moto"
+    "id": "125",
+    "brandName": "AVINTON"
   },
   {
-    "id":"126",
-    "brandName":"AXR",
-    "type":"moto"
+    "id": "126",
+    "brandName": "AXR"
   },
   {
-    "id":"127",
-    "brandName":"AZTRAL",
-    "type":"moto"
+    "id": "127",
+    "brandName": "AZTRAL"
   },
   {
-    "id":"128",
-    "brandName":"BAJAJ",
-    "type":"moto"
+    "id": "128",
+    "brandName": "BAJAJ"
   },
   {
-    "id":"129",
-    "brandName":"BAOTIAN",
-    "type":"moto"
+    "id": "129",
+    "brandName": "BAOTIAN"
   },
   {
-    "id":"130",
-    "brandName":"BARIGO",
-    "type":"moto"
+    "id": "130",
+    "brandName": "BARIGO"
   },
   {
-    "id":"131",
-    "brandName":"BENELLI",
-    "type":"moto"
+    "id": "131",
+    "brandName": "BENELLI"
   },
   {
-    "id":"132",
-    "brandName":"BETA",
-    "type":"moto"
+    "id": "132",
+    "brandName": "BETA"
   },
   {
-    "id":"133",
-    "brandName":"BIG BEAR CHOPPE",
-    "type":"moto"
+    "id": "133",
+    "brandName": "BIG BEAR CHOPPE"
   },
   {
-    "id":"134",
-    "brandName":"BIG DOG",
-    "type":"moto"
+    "id": "134",
+    "brandName": "BIG DOG"
   },
   {
-    "id":"135",
-    "brandName":"BIMOTA",
-    "type":"moto"
+    "id": "135",
+    "brandName": "BIMOTA"
   },
   {
-    "id":"136",
-    "brandName":"BLATA",
-    "type":"moto"
+    "id": "136",
+    "brandName": "BLATA"
   },
   {
-    "id":"137",
-    "brandName":"BMW",
-    "type":"moto"
+    "id": "137",
+    "brandName": "BOATIAN"
   },
   {
-    "id":"138",
-    "brandName":"BOATIAN",
-    "type":"moto"
+    "id": "138",
+    "brandName": "BOOM TRIKES"
   },
   {
-    "id":"139",
-    "brandName":"BOOM TRIKES",
-    "type":"moto"
+    "id": "139",
+    "brandName": "BOOXT"
   },
   {
-    "id":"140",
-    "brandName":"BOOXT",
-    "type":"moto"
+    "id": "140",
+    "brandName": "BRAMMO"
   },
   {
-    "id":"141",
-    "brandName":"BRAMMO",
-    "type":"moto"
+    "id": "141",
+    "brandName": "BSM"
   },
   {
-    "id":"142",
-    "brandName":"BSM",
-    "type":"moto"
+    "id": "142",
+    "brandName": "BUELL"
   },
   {
-    "id":"143",
-    "brandName":"BUELL",
-    "type":"moto"
+    "id": "143",
+    "brandName": "BULLIT"
   },
   {
-    "id":"144",
-    "brandName":"BULLIT",
-    "type":"moto"
+    "id": "144",
+    "brandName": "BUNKER TRIKE"
   },
   {
-    "id":"145",
-    "brandName":"BUNKER TRIKE",
-    "type":"moto"
+    "id": "145",
+    "brandName": "CAGIVA"
   },
   {
-    "id":"146",
-    "brandName":"CAGIVA",
-    "type":"moto"
+    "id": "146",
+    "brandName": "CAN-AM"
   },
   {
-    "id":"147",
-    "brandName":"CAN-AM",
-    "type":"moto"
+    "id": "147",
+    "brandName": "CCM"
   },
   {
-    "id":"148",
-    "brandName":"CCM",
-    "type":"moto"
+    "id": "148",
+    "brandName": "CF MOTO"
   },
   {
-    "id":"149",
-    "brandName":"CF MOTO",
-    "type":"moto"
+    "id": "149",
+    "brandName": "CH RACING"
   },
   {
-    "id":"150",
-    "brandName":"CH RACING",
-    "type":"moto"
+    "id": "150",
+    "brandName": "CHANG JIANG"
   },
   {
-    "id":"151",
-    "brandName":"CHANG JIANG",
-    "type":"moto"
+    "id": "151",
+    "brandName": "CHUN LAN"
   },
   {
-    "id":"152",
-    "brandName":"CHUN LAN",
-    "type":"moto"
+    "id": "152",
+    "brandName": "CLIMAX"
   },
   {
-    "id":"153",
-    "brandName":"CLIMAX",
-    "type":"moto"
+    "id": "153",
+    "brandName": "CLIPIC"
   },
   {
-    "id":"154",
-    "brandName":"CLIPIC",
-    "type":"moto"
+    "id": "154",
+    "brandName": "CONTI MOTORS"
   },
   {
-    "id":"155",
-    "brandName":"CONTI MOTORS",
-    "type":"moto"
+    "id": "155",
+    "brandName": "CPI"
   },
   {
-    "id":"156",
-    "brandName":"CPI",
-    "type":"moto"
+    "id": "156",
+    "brandName": "CR AND S"
   },
   {
-    "id":"157",
-    "brandName":"CR AND S",
-    "type":"moto"
+    "id": "157",
+    "brandName": "CZ"
   },
   {
-    "id":"158",
-    "brandName":"CZ",
-    "type":"moto"
+    "id": "158",
+    "brandName": "DAELIM"
   },
   {
-    "id":"159",
-    "brandName":"DAELIM",
-    "type":"moto"
+    "id": "159",
+    "brandName": "DAFIER"
   },
   {
-    "id":"160",
-    "brandName":"DAFIER",
-    "type":"moto"
+    "id": "160",
+    "brandName": "DALL ARA"
   },
   {
-    "id":"161",
-    "brandName":"DALL ARA",
-    "type":"moto"
+    "id": "161",
+    "brandName": "DERBI"
   },
   {
-    "id":"162",
-    "brandName":"DERBI",
-    "type":"moto"
+    "id": "162",
+    "brandName": "DFLONG"
   },
   {
-    "id":"163",
-    "brandName":"DFLONG",
-    "type":"moto"
+    "id": "163",
+    "brandName": "DI BLASI"
   },
   {
-    "id":"164",
-    "brandName":"DI BLASI",
-    "type":"moto"
+    "id": "164",
+    "brandName": "DUCATI"
   },
   {
-    "id":"165",
-    "brandName":"DUCATI",
-    "type":"moto"
+    "id": "165",
+    "brandName": "EASY TRIKE"
   },
   {
-    "id":"166",
-    "brandName":"EASY TRIKE",
-    "type":"moto"
+    "id": "166",
+    "brandName": "ECCITY"
   },
   {
-    "id":"167",
-    "brandName":"ECCITY",
-    "type":"moto"
+    "id": "167",
+    "brandName": "ELECTRIC CITY"
   },
   {
-    "id":"168",
-    "brandName":"ELECTRIC CITY",
-    "type":"moto"
+    "id": "168",
+    "brandName": "E-MAX"
   },
   {
-    "id":"169",
-    "brandName":"E-MAX",
-    "type":"moto"
+    "id": "169",
+    "brandName": "EML"
   },
   {
-    "id":"170",
-    "brandName":"EML",
-    "type":"moto"
+    "id": "170",
+    "brandName": "ENFIELD INDIA"
   },
   {
-    "id":"171",
-    "brandName":"ENFIELD INDIA",
-    "type":"moto"
+    "id": "171",
+    "brandName": "EUROCKA"
   },
   {
-    "id":"172",
-    "brandName":"EUROCKA",
-    "type":"moto"
+    "id": "172",
+    "brandName": "EVO-SET"
   },
   {
-    "id":"173",
-    "brandName":"EVO-SET",
-    "type":"moto"
+    "id": "173",
+    "brandName": "EXPLORER"
   },
   {
-    "id":"174",
-    "brandName":"EXPLORER",
-    "type":"moto"
+    "id": "174",
+    "brandName": "EYLIPSE"
   },
   {
-    "id":"175",
-    "brandName":"EYLIPSE",
-    "type":"moto"
+    "id": "175",
+    "brandName": "FANTIC"
   },
   {
-    "id":"176",
-    "brandName":"FANTIC",
-    "type":"moto"
+    "id": "176",
+    "brandName": "FEIYING"
   },
   {
-    "id":"177",
-    "brandName":"FEIYING",
-    "type":"moto"
+    "id": "177",
+    "brandName": "FYM"
   },
   {
-    "id":"178",
-    "brandName":"FYM",
-    "type":"moto"
+    "id": "178",
+    "brandName": "GAS GAS"
   },
   {
-    "id":"179",
-    "brandName":"GAS GAS",
-    "type":"moto"
+    "id": "179",
+    "brandName": "GENERIC"
   },
   {
-    "id":"180",
-    "brandName":"GENERIC",
-    "type":"moto"
+    "id": "180",
+    "brandName": "GILERA"
   },
   {
-    "id":"181",
-    "brandName":"GILERA",
-    "type":"moto"
+    "id": "181",
+    "brandName": "GOES"
   },
   {
-    "id":"182",
-    "brandName":"GOES",
-    "type":"moto"
+    "id": "182",
+    "brandName": "GOVECS"
   },
   {
-    "id":"183",
-    "brandName":"GOVECS",
-    "type":"moto"
+    "id": "183",
+    "brandName": "GOWINN"
   },
   {
-    "id":"184",
-    "brandName":"GOWINN",
-    "type":"moto"
+    "id": "184",
+    "brandName": "HANWAY"
   },
   {
-    "id":"185",
-    "brandName":"HANWAY",
-    "type":"moto"
+    "id": "185",
+    "brandName": "HARLEY-DAVIDSON"
   },
   {
-    "id":"186",
-    "brandName":"HARLEY DAVidSON",
-    "type":"moto"
+    "id": "186",
+    "brandName": "HARTFORD"
   },
   {
-    "id":"187",
-    "brandName":"HARLEY-DAVidSON",
-    "type":"moto"
+    "id": "187",
+    "brandName": "HEROWAY"
   },
   {
-    "id":"188",
-    "brandName":"HARTFORD",
-    "type":"moto"
+    "id": "188",
+    "brandName": "HIGHLAND"
   },
   {
-    "id":"189",
-    "brandName":"HEROWAY",
-    "type":"moto"
+    "id": "189",
+    "brandName": "HM HONDA"
   },
   {
-    "id":"190",
-    "brandName":"HIGHLAND",
-    "type":"moto"
+    "id": "190",
+    "brandName": "HM MOTO"
   },
   {
-    "id":"191",
-    "brandName":"HM HONDA",
-    "type":"moto"
+    "id": "191",
+    "brandName": "HOOLISTER"
   },
   {
-    "id":"192",
-    "brandName":"HM MOTO",
-    "type":"moto"
+    "id": "192",
+    "brandName": "HOOPER"
   },
   {
-    "id":"193",
-    "brandName":"HONDA",
-    "type":"moto"
+    "id": "193",
+    "brandName": "HP POWER"
   },
   {
-    "id":"194",
-    "brandName":"HOOLISTER",
-    "type":"moto"
+    "id": "194",
+    "brandName": "HRD"
   },
   {
-    "id":"195",
-    "brandName":"HOOPER",
-    "type":"moto"
+    "id": "195",
+    "brandName": "HUPPER"
   },
   {
-    "id":"196",
-    "brandName":"HP POWER",
-    "type":"moto"
+    "id": "196",
+    "brandName": "HUSABERG"
   },
   {
-    "id":"197",
-    "brandName":"HRD",
-    "type":"moto"
+    "id": "197",
+    "brandName": "HUSQVARNA"
   },
   {
-    "id":"198",
-    "brandName":"HUPPER",
-    "type":"moto"
+    "id": "198",
+    "brandName": "HYOSUNG"
   },
   {
-    "id":"199",
-    "brandName":"HUSABERG",
-    "type":"moto"
+    "id": "199",
+    "brandName": "IMF INDUSTRIE"
   },
   {
-    "id":"200",
-    "brandName":"HUSQVARNA",
-    "type":"moto"
+    "id": "200",
+    "brandName": "INDIAN"
   },
   {
-    "id":"201",
-    "brandName":"HYOSUNG",
-    "type":"moto"
+    "id": "201",
+    "brandName": "ITALJET"
   },
   {
-    "id":"202",
-    "brandName":"IMF INDUSTRIE",
-    "type":"moto"
+    "id": "202",
+    "brandName": "JAMES-B"
   },
   {
-    "id":"203",
-    "brandName":"INDIAN",
-    "type":"moto"
+    "id": "203",
+    "brandName": "JAWA"
   },
   {
-    "id":"204",
-    "brandName":"ITALJET",
-    "type":"moto"
+    "id": "204",
+    "brandName": "JIAJUE"
   },
   {
-    "id":"205",
-    "brandName":"JAMES-B",
-    "type":"moto"
+    "id": "205",
+    "brandName": "JIALING"
   },
   {
-    "id":"206",
-    "brandName":"JAWA",
-    "type":"moto"
+    "id": "206",
+    "brandName": "JINCHENG"
   },
   {
-    "id":"207",
-    "brandName":"JIAJUE",
-    "type":"moto"
+    "id": "207",
+    "brandName": "JINLUN"
   },
   {
-    "id":"208",
-    "brandName":"JIALING",
-    "type":"moto"
+    "id": "208",
+    "brandName": "JMSTAR"
   },
   {
-    "id":"209",
-    "brandName":"JINCHENG",
-    "type":"moto"
+    "id": "209",
+    "brandName": "JONWAY ITALIA"
   },
   {
-    "id":"210",
-    "brandName":"JINLUN",
-    "type":"moto"
+    "id": "210",
+    "brandName": "KANUNI"
   },
   {
-    "id":"211",
-    "brandName":"JMSTAR",
-    "type":"moto"
+    "id": "211",
+    "brandName": "KAWASAKI"
   },
   {
-    "id":"212",
-    "brandName":"JONWAY ITALIA",
-    "type":"moto"
+    "id": "212",
+    "brandName": "KEEWAY"
   },
   {
-    "id":"213",
-    "brandName":"KANUNI",
-    "type":"moto"
+    "id": "213",
+    "brandName": "KINROAD"
   },
   {
-    "id":"214",
-    "brandName":"KAWASAKI",
-    "type":"moto"
+    "id": "214",
+    "brandName": "KNIEVEL"
   },
   {
-    "id":"215",
-    "brandName":"KEEWAY",
-    "type":"moto"
+    "id": "215",
+    "brandName": "KREidLER"
   },
   {
-    "id":"216",
-    "brandName":"KINROAD",
-    "type":"moto"
+    "id": "216",
+    "brandName": "KSR MOTO"
   },
   {
-    "id":"217",
-    "brandName":"KNIEVEL",
-    "type":"moto"
+    "id": "217",
+    "brandName": "KTM"
   },
   {
-    "id":"218",
-    "brandName":"KREidLER",
-    "type":"moto"
+    "id": "218",
+    "brandName": "KYMCO"
   },
   {
-    "id":"219",
-    "brandName":"KSR MOTO",
-    "type":"moto"
+    "id": "219",
+    "brandName": "LAMBRETTA"
   },
   {
-    "id":"220",
-    "brandName":"KTM",
-    "type":"moto"
+    "id": "220",
+    "brandName": "LAVERDA"
   },
   {
-    "id":"221",
-    "brandName":"KYMCO",
-    "type":"moto"
+    "id": "221",
+    "brandName": "LEDOW"
   },
   {
-    "id":"222",
-    "brandName":"LAMBRETTA",
-    "type":"moto"
+    "id": "222",
+    "brandName": "LEIKE"
   },
   {
-    "id":"223",
-    "brandName":"LAVERDA",
-    "type":"moto"
+    "id": "223",
+    "brandName": "LEONART"
   },
   {
-    "id":"224",
-    "brandName":"LEDOW",
-    "type":"moto"
+    "id": "224",
+    "brandName": "LIFAN"
   },
   {
-    "id":"225",
-    "brandName":"LEIKE",
-    "type":"moto"
+    "id": "225",
+    "brandName": "LIFENG"
   },
   {
-    "id":"226",
-    "brandName":"LEONART",
-    "type":"moto"
+    "id": "226",
+    "brandName": "LINGBEN"
   },
   {
-    "id":"227",
-    "brandName":"LIFAN",
-    "type":"moto"
+    "id": "227",
+    "brandName": "LINGYUN"
   },
   {
-    "id":"228",
-    "brandName":"LIFENG",
-    "type":"moto"
+    "id": "228",
+    "brandName": "LINHAI"
   },
   {
-    "id":"229",
-    "brandName":"LINGBEN",
-    "type":"moto"
+    "id": "229",
+    "brandName": "LINTEX"
   },
   {
-    "id":"230",
-    "brandName":"LINGYUN",
-    "type":"moto"
+    "id": "230",
+    "brandName": "LITO"
   },
   {
-    "id":"231",
-    "brandName":"LINHAI",
-    "type":"moto"
+    "id": "231",
+    "brandName": "LML"
   },
   {
-    "id":"232",
-    "brandName":"LINTEX",
-    "type":"moto"
+    "id": "232",
+    "brandName": "LONCIN"
   },
   {
-    "id":"233",
-    "brandName":"LITO",
-    "type":"moto"
+    "id": "233",
+    "brandName": "MALAGUTI"
   },
   {
-    "id":"234",
-    "brandName":"LML",
-    "type":"moto"
+    "id": "234",
+    "brandName": "MASAI"
   },
   {
-    "id":"235",
-    "brandName":"LONCIN",
-    "type":"moto"
+    "id": "235",
+    "brandName": "MASH"
   },
   {
-    "id":"236",
-    "brandName":"MALAGUTI",
-    "type":"moto"
+    "id": "236",
+    "brandName": "MBK"
   },
   {
-    "id":"237",
-    "brandName":"MASAI",
-    "type":"moto"
+    "id": "237",
+    "brandName": "MEGELLI"
   },
   {
-    "id":"238",
-    "brandName":"MASH",
-    "type":"moto"
+    "id": "238",
+    "brandName": "MINICO"
   },
   {
-    "id":"239",
-    "brandName":"MBK",
-    "type":"moto"
+    "id": "239",
+    "brandName": "MISTRAL"
   },
   {
-    "id":"240",
-    "brandName":"MEGELLI",
-    "type":"moto"
+    "id": "240",
+    "brandName": "MOTO MORINI"
   },
   {
-    "id":"241",
-    "brandName":"MINICO",
-    "type":"moto"
+    "id": "241",
+    "brandName": "MORS"
   },
   {
-    "id":"242",
-    "brandName":"MISTRAL",
-    "type":"moto"
+    "id": "242",
+    "brandName": "MOTO GUZZI"
   },
   {
-    "id":"243",
-    "brandName":"MORGAN",
-    "type":"moto"
+    "id": "243",
+    "brandName": "MOTOBECANE"
   },
   {
-    "id":"244",
-    "brandName":"MORINI",
-    "type":"moto"
+    "id": "244",
+    "brandName": "MOTOCONFORT"
   },
   {
-    "id":"245",
-    "brandName":"MORS",
-    "type":"moto"
+    "id": "245",
+    "brandName": "MOTOR HISPANIA"
   },
   {
-    "id":"246",
-    "brandName":"GUZZI",
-    "type":"moto"
+    "id": "246",
+    "brandName": "MOTRAC"
   },
   {
-    "id":"247",
-    "brandName":"MOTOBECANE",
-    "type":"moto"
+    "id": "247",
+    "brandName": "MUZ"
   },
   {
-    "id":"248",
-    "brandName":"MOTOCONFORT",
-    "type":"moto"
+    "id": "248",
+    "brandName": "MV"
   },
   {
-    "id":"249",
-    "brandName":"MOTOR HISPANIA",
-    "type":"moto"
+    "id": "249",
+    "brandName": "MV AGUSTA"
   },
   {
-    "id":"250",
-    "brandName":"MOTRAC",
-    "type":"moto"
+    "id": "250",
+    "brandName": "MZ"
   },
   {
-    "id":"251",
-    "brandName":"MUZ",
-    "type":"moto"
+    "id": "251",
+    "brandName": "NECO"
   },
   {
-    "id":"252",
-    "brandName":"MV",
-    "type":"moto"
+    "id": "252",
+    "brandName": "NORTON"
   },
   {
-    "id":"253",
-    "brandName":"MV AGUSTA",
-    "type":"moto"
+    "id": "253",
+    "brandName": "ORCAL"
   },
   {
-    "id":"254",
-    "brandName":"MZ",
-    "type":"moto"
+    "id": "254",
+    "brandName": "OSSA"
   },
   {
-    "id":"255",
-    "brandName":"NECO",
-    "type":"moto"
+    "id": "255",
+    "brandName": "OVERBIKES"
   },
   {
-    "id":"256",
-    "brandName":"NORTON",
-    "type":"moto"
+    "id": "256",
+    "brandName": "OXOBIKE"
   },
   {
-    "id":"257",
-    "brandName":"ORCAL",
-    "type":"moto"
+    "id": "257",
+    "brandName": "PFM"
   },
   {
-    "id":"258",
-    "brandName":"OSSA",
-    "type":"moto"
+    "id": "258",
+    "brandName": "POLARIS"
   },
   {
-    "id":"259",
-    "brandName":"OVERBIKES",
-    "type":"moto"
+    "id": "259",
+    "brandName": "QINGQI"
   },
   {
-    "id":"260",
-    "brandName":"OXOBIKE",
-    "type":"moto"
+    "id": "260",
+    "brandName": "QUADRO"
   },
   {
-    "id":"261",
-    "brandName":"PEUGEOT",
-    "type":"moto"
+    "id": "261",
+    "brandName": "QUANTYA"
   },
   {
-    "id":"262",
-    "brandName":"PFM",
-    "type":"moto"
+    "id": "262",
+    "brandName": "RAZZO"
   },
   {
-    "id":"263",
-    "brandName":"PGO",
-    "type":"moto"
+    "id": "263",
+    "brandName": "REGAL RAPTOR"
   },
   {
-    "id":"264",
-    "brandName":"PIAGGIO",
-    "type":"moto"
+    "id": "264",
+    "brandName": "REVATTO"
   },
   {
-    "id":"265",
-    "brandName":"POLARIS",
-    "type":"moto"
+    "id": "265",
+    "brandName": "REWACO"
   },
   {
-    "id":"266",
-    "brandName":"QINGQI",
-    "type":"moto"
+    "id": "266",
+    "brandName": "RidE"
   },
   {
-    "id":"267",
-    "brandName":"QUADRO",
-    "type":"moto"
+    "id": "267",
+    "brandName": "RIEJU"
   },
   {
-    "id":"268",
-    "brandName":"QUANTYA",
-    "type":"moto"
+    "id": "268",
+    "brandName": "RIVAL MOTORS"
   },
   {
-    "id":"269",
-    "brandName":"RAZZO",
-    "type":"moto"
+    "id": "269",
+    "brandName": "ROADBIKE"
   },
   {
-    "id":"270",
-    "brandName":"REGAL RAPTOR",
-    "type":"moto"
+    "id": "270",
+    "brandName": "ROADSIGN"
   },
   {
-    "id":"271",
-    "brandName":"RENAULT",
-    "type":"moto"
+    "id": "271",
+    "brandName": "ROBY BIKE"
   },
   {
-    "id":"272",
-    "brandName":"REVATTO",
-    "type":"moto"
+    "id": "272",
+    "brandName": "ROYAL ENFIELD"
   },
   {
-    "id":"273",
-    "brandName":"REWACO",
-    "type":"moto"
+    "id": "273",
+    "brandName": "SACHS"
   },
   {
-    "id":"274",
-    "brandName":"RidE",
-    "type":"moto"
+    "id": "274",
+    "brandName": "SAMPO"
   },
   {
-    "id":"275",
-    "brandName":"RIEJU",
-    "type":"moto"
+    "id": "275",
+    "brandName": "SAXON"
   },
   {
-    "id":"276",
-    "brandName":"RIVAL MOTORS",
-    "type":"moto"
+    "id": "276",
+    "brandName": "SCORPA"
   },
   {
-    "id":"277",
-    "brandName":"ROADBIKE",
-    "type":"moto"
+    "id": "277",
+    "brandName": "SECMA"
   },
   {
-    "id":"278",
-    "brandName":"ROADSIGN",
-    "type":"moto"
+    "id": "278",
+    "brandName": "SELECT UP"
   },
   {
-    "id":"279",
-    "brandName":"ROBY BIKE",
-    "type":"moto"
+    "id": "279",
+    "brandName": "SHENKE"
   },
   {
-    "id":"280",
-    "brandName":"ROYAL ENFIELD",
-    "type":"moto"
+    "id": "280",
+    "brandName": "SHERCO"
   },
   {
-    "id":"281",
-    "brandName":"SACHS",
-    "type":"moto"
+    "id": "281",
+    "brandName": "SidE-BIKE"
   },
   {
-    "id":"282",
-    "brandName":"SAMPO",
-    "type":"moto"
+    "id": "282",
+    "brandName": "SKY TEAM"
   },
   {
-    "id":"283",
-    "brandName":"SAXON",
-    "type":"moto"
+    "id": "283",
+    "brandName": "SPIGAOU"
   },
   {
-    "id":"284",
-    "brandName":"SCORPA",
-    "type":"moto"
+    "id": "284",
+    "brandName": "SYM"
   },
   {
-    "id":"285",
-    "brandName":"SECMA",
-    "type":"moto"
+    "id": "285",
+    "brandName": "TENDANCE"
   },
   {
-    "id":"286",
-    "brandName":"SELECT UP",
-    "type":"moto"
+    "id": "286",
+    "brandName": "TGB"
   },
   {
-    "id":"287",
-    "brandName":"SHENKE",
-    "type":"moto"
+    "id": "287",
+    "brandName": "TM"
   },
   {
-    "id":"288",
-    "brandName":"SHERCO",
-    "type":"moto"
+    "id": "288",
+    "brandName": "TNT MOTOR"
   },
   {
-    "id":"289",
-    "brandName":"SidE-BIKE",
-    "type":"moto"
+    "id": "289",
+    "brandName": "TOMOS"
   },
   {
-    "id":"290",
-    "brandName":"SKY TEAM",
-    "type":"moto"
+    "id": "290",
+    "brandName": "TRIKETEC"
   },
   {
-    "id":"291",
-    "brandName":"SPIGAOU",
-    "type":"moto"
+    "id": "291",
+    "brandName": "TRITON"
   },
   {
-    "id":"292",
-    "brandName":"SUZUKI",
-    "type":"moto"
+    "id": "292",
+    "brandName": "UNIVERSAL BIKE"
   },
   {
-    "id":"293",
-    "brandName":"SYM",
-    "type":"moto"
+    "id": "293",
+    "brandName": "URAL"
   },
   {
-    "id":"294",
-    "brandName":"TENDANCE",
-    "type":"moto"
+    "id": "294",
+    "brandName": "VASTRO"
   },
   {
-    "id":"295",
-    "brandName":"TGB",
-    "type":"moto"
+    "id": "295",
+    "brandName": "VENTO"
   },
   {
-    "id":"296",
-    "brandName":"TM",
-    "type":"moto"
+    "id": "296",
+    "brandName": "VERTEMATI"
   },
   {
-    "id":"297",
-    "brandName":"TNT MOTOR",
-    "type":"moto"
+    "id": "297",
+    "brandName": "VESPA"
   },
   {
-    "id":"298",
-    "brandName":"TOMOS",
-    "type":"moto"
+    "id": "298",
+    "brandName": "VICTORY"
   },
   {
-    "id":"299",
-    "brandName":"TRIKETEC",
-    "type":"moto"
+    "id": "299",
+    "brandName": "VOLTA"
   },
   {
-    "id":"300",
-    "brandName":"TRITON",
-    "type":"moto"
+    "id": "300",
+    "brandName": "VONROAD"
   },
   {
-    "id":"301",
-    "brandName":"TRIUMPH",
-    "type":"moto"
+    "id": "301",
+    "brandName": "VOXAN"
   },
   {
-    "id":"302",
-    "brandName":"UNIVERSAL BIKE",
-    "type":"moto"
+    "id": "302",
+    "brandName": "WACOX"
   },
   {
-    "id":"303",
-    "brandName":"URAL",
-    "type":"moto"
+    "id": "303",
+    "brandName": "WAKAN"
   },
   {
-    "id":"304",
-    "brandName":"VASTRO",
-    "type":"moto"
+    "id": "304",
+    "brandName": "WK-TRIKES"
   },
   {
-    "id":"305",
-    "brandName":"VENTO",
-    "type":"moto"
+    "id": "305",
+    "brandName": "XGJAO"
   },
   {
-    "id":"306",
-    "brandName":"VERTEMATI",
-    "type":"moto"
+    "id": "306",
+    "brandName": "XINGYUE"
   },
   {
-    "id":"307",
-    "brandName":"VESPA",
-    "type":"moto"
+    "id": "307",
+    "brandName": "YAMAHA"
   },
   {
-    "id":"308",
-    "brandName":"VICTORY",
-    "type":"moto"
+    "id": "308",
+    "brandName": "YAZUKA"
   },
   {
-    "id":"309",
-    "brandName":"VOLTA",
-    "type":"moto"
+    "id": "309",
+    "brandName": "YCF"
   },
   {
-    "id":"310",
-    "brandName":"VONROAD",
-    "type":"moto"
+    "id": "310",
+    "brandName": "YIBEN"
   },
   {
-    "id":"311",
-    "brandName":"VOXAN",
-    "type":"moto"
+    "id": "311",
+    "brandName": "YIYING"
   },
   {
-    "id":"312",
-    "brandName":"WACOX",
-    "type":"moto"
+    "id": "312",
+    "brandName": "ZERO ENGINEERING"
   },
   {
-    "id":"313",
-    "brandName":"WAKAN",
-    "type":"moto"
+    "id": "313",
+    "brandName": "ZERO MOTORCYCLE"
   },
   {
-    "id":"314",
-    "brandName":"WK-TRIKES",
-    "type":"moto"
+    "id": "314",
+    "brandName": "ZHENHUA"
   },
   {
-    "id":"315",
-    "brandName":"XGJAO",
-    "type":"moto"
+    "id": "315",
+    "brandName": "ZHONGNENG"
   },
   {
-    "id":"316",
-    "brandName":"XINGYUE",
-    "type":"moto"
+    "id": "316",
+    "brandName": "ZHONGYU"
   },
   {
-    "id":"317",
-    "brandName":"YAMAHA",
-    "type":"moto"
-  },
-  {
-    "id":"318",
-    "brandName":"YAZUKA",
-    "type":"moto"
-  },
-  {
-    "id":"319",
-    "brandName":"YCF",
-    "type":"moto"
-  },
-  {
-    "id":"320",
-    "brandName":"YIBEN",
-    "type":"moto"
-  },
-  {
-    "id":"321",
-    "brandName":"YIYING",
-    "type":"moto"
-  },
-  {
-    "id":"322",
-    "brandName":"ZERO ENGINEERIN",
-    "type":"moto"
-  },
-  {
-    "id":"323",
-    "brandName":"ZERO MOTORCYCLE",
-    "type":"moto"
-  },
-  {
-    "id":"324",
-    "brandName":"ZHENHUA",
-    "type":"moto"
-  },
-  {
-    "id":"325",
-    "brandName":"ZHONGNENG",
-    "type":"moto"
-  },
-  {
-    "id":"326",
-    "brandName":"ZHONGYU",
-    "type":"moto"
-  },
-  {
-    "id":"327",
-    "brandName":"ZONGSHEN",
-    "type":"moto"
+    "id": "317",
+    "brandName": "ZONGSHEN"
   }
 ]
