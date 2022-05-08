@@ -20,10 +20,14 @@ export class InvoiceService {
     vehicleId: string,
     parameters: InvoiceDTO,
   ) => {
+    const invoice = await this.invoiceRepository.insert({
+      ...parameters,
+      vehicle: vehicleId,
+    });
+
     return new APIDto(
-      await this.invoiceRepository.insert({
-        ...parameters,
-        vehicle: vehicleId,
+      await this.invoiceRepository.findOneById(invoice._id, {
+        populate: ['file'],
       }),
     );
   };
