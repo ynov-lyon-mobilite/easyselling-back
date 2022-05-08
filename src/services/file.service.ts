@@ -4,7 +4,6 @@ import { v4 as uuid } from 'uuid';
 import { FileRepository } from '../repositories/file.repository';
 import { APIDto } from '../dto/api.dto';
 import config from '../configs';
-import { async } from 'rxjs';
 
 @Injectable()
 export class FileService {
