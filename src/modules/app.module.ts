@@ -1,12 +1,13 @@
 import { Module } from '@nestjs/common';
+import { MongooseModule } from '@nestjs/mongoose';
+import { ScheduleModule } from '@nestjs/schedule';
+import { MongoModule } from './mondo.module';
 import { AuthenticationController } from '../controllers/authentication.controller';
 import { UserController } from '../controllers/user.controller';
 import { AuthenticationService } from '../services/authentication.service';
 import { UserService } from '../services/user.service';
 import { AppController } from '../controllers/app.controller';
 import { AppService } from '../services/app.service';
-import { MongoModule } from './mondo.module';
-import { MongooseModule } from '@nestjs/mongoose';
 import { VehicleController } from '../controllers/vehicle.controller';
 import { VehicleService } from '../services/vehicle.service';
 import { InvoiceController } from '../controllers/invoice.controller';
@@ -19,7 +20,12 @@ import { ImportService } from '../services/import.service';
 import config from '../configs';
 
 @Module({
-  imports: [MongooseModule.forRoot(config.mongoUrl), MongoModule, MongoModule],
+  imports: [
+    MongooseModule.forRoot(config.mongoUrl),
+    MongoModule,
+    MongoModule,
+    ScheduleModule.forRoot(),
+  ],
   controllers: [
     AppController,
     AuthenticationController,
