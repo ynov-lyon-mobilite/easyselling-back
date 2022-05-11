@@ -20,7 +20,7 @@ export class VehicleAuthorization {
   user: Types.ObjectId;
 
   @Prop({ default: false })
-  isActive: string;
+  isActive: boolean;
 
   @Prop()
   activationDate: Date;

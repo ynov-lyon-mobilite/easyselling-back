@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ScheduleModule } from '@nestjs/schedule';
-import { MongoModule } from './mondo.module';
+import { MongoModule } from './mongo.module';
 import { AuthenticationController } from '../controllers/authentication.controller';
 import { UserController } from '../controllers/user.controller';
 import { AuthenticationService } from '../services/authentication.service';

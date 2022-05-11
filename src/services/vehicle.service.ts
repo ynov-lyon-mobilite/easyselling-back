@@ -94,12 +94,16 @@ export class VehicleService {
       authorizationId,
     );
 
-    if (!authorization || !user._id.equals(authorization.user)) {
-      throw new UnauthorizedException();
+    if (
+      !authorization ||
+      authorization.isActive ||
+      !!authorization.expirationDate
+    ) {
+      throw new BadRequestException();
     }
 
-    if (authorization.isActive || !!authorization.expirationDate) {
-      throw new BadRequestException();
+    if (!user._id.equals(authorization.user)) {
+      throw new UnauthorizedException();
     }
 
     await this.vehicleAuthorizationRepository.updateOneBy(
